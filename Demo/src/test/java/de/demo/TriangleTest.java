@@ -24,7 +24,7 @@ public class TriangleTest {
 
     @Test
     public void testEquilateral() {       
-        Triangle instance = new Triangle("1", "1", "2");
+        Triangle instance = new Triangle("1", "1", "1");
         String expResult = "Equilateral";
         String result = instance.determineTriangleType();
         assertEquals(expResult, result);
