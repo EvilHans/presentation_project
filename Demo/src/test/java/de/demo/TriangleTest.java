@@ -2,19 +2,12 @@ package de.demo;
 /*
  * JUnit test for the Triangle class
  */
-
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
  *
- * @author 
+ * TriangleTest
  */
 public class TriangleTest {
     // Create a new Triangle

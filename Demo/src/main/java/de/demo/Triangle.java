@@ -1,7 +1,7 @@
 package de.demo;
 /**
 *
-* @author 
+* Triangle
 */
 public class Triangle {
 
@@ -52,7 +52,7 @@ public class Triangle {
           err += "Side 3 is not a number!\n";
        }
        
-       // Chceck that nothing is negative
+       // Check that nothing is negative
        if (s1 <= 0 || s2 <= 0 || s3 <= 0) {
               err += "At least one length is less than 0!\n";            
        }
